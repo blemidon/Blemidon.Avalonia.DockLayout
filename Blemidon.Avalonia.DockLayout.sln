@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demos", "demos", "{D9F951ED-02F2-4579-BE31-03B546415175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blemidon.Avalonia.DockLayout.Demo", "demos\Blemidon.Avalonia.DockLayout.Demo\Blemidon.Avalonia.DockLayout.Demo.csproj", "{4973317B-E28E-4C12-BAEB-DEAAE8FC8FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blemidon.Avalonia.DockLayout.Demo.Desktop", "demos\Blemidon.Avalonia.DockLayout.Demo.Desktop\Blemidon.Avalonia.DockLayout.Demo.Desktop.csproj", "{82E7C6C1-4714-4BB8-A5CC-169317372662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{15AAFF70-F98C-4905-AF0E-8572F44F18C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blemidon.Avalonia.DockLayout", "src\Blemidon.Avalonia.DockLayout\Blemidon.Avalonia.DockLayout.csproj", "{E78E414C-8793-4039-80C6-9D1BCE38E503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4973317B-E28E-4C12-BAEB-DEAAE8FC8FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4973317B-E28E-4C12-BAEB-DEAAE8FC8FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4973317B-E28E-4C12-BAEB-DEAAE8FC8FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4973317B-E28E-4C12-BAEB-DEAAE8FC8FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E7C6C1-4714-4BB8-A5CC-169317372662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E7C6C1-4714-4BB8-A5CC-169317372662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E7C6C1-4714-4BB8-A5CC-169317372662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E7C6C1-4714-4BB8-A5CC-169317372662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E78E414C-8793-4039-80C6-9D1BCE38E503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78E414C-8793-4039-80C6-9D1BCE38E503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78E414C-8793-4039-80C6-9D1BCE38E503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78E414C-8793-4039-80C6-9D1BCE38E503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83CB65B8-011F-4ED7-BCD3-A6CFA935EF7E}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4973317B-E28E-4C12-BAEB-DEAAE8FC8FCA} = {D9F951ED-02F2-4579-BE31-03B546415175}
+		{82E7C6C1-4714-4BB8-A5CC-169317372662} = {D9F951ED-02F2-4579-BE31-03B546415175}
+		{E78E414C-8793-4039-80C6-9D1BCE38E503} = {15AAFF70-F98C-4905-AF0E-8572F44F18C5}
+	EndGlobalSection
+EndGlobal
